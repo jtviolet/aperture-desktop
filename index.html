@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>xterm.js demo</title>
+  <link rel="stylesheet" href="node_modules/xterm/dist/xterm.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="node_modules/xterm/dist/xterm.js"></script>
+  <script src="node_modules/xterm/dist/addons/fit/fit.js"></script>
+  <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+</head>
+
+<body>
+  <select id="rooms" onChange="connect()">
+    <button id="connect" onclick="connect()">Connect</button>
+    <input type="textbox" id="connected" />
+      <div id="terminal-container"></div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
