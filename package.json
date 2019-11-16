@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "socket.io": "^2.0.3",
-    "xterm": "^2.7.0"
+    "xterm": "^4.2.0"
   },
   "devDependencies": {
     "electron": "^7.1.1"
